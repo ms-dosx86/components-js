@@ -20,11 +20,11 @@ export interface ChatProps extends React.HTMLAttributes<HTMLDivElement>, ChatOpt
  * @remarks
  * - Only users who are in the room at the time of dispatch will receive messages
  * - Message history is not persisted between sessions
- * - Requires `@livekit/components-styles` to be imported for styling
+ * - Requires `@ms-dosx86/components-styles` to be imported for styling
  *
  * @example
  * ```tsx
- * import '@livekit/components-styles';
+ * import '@ms-dosx86/components-styles';
  *
  * function Room() {
  *   return (

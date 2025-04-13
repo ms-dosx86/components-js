@@ -13,7 +13,7 @@ body:
       label: Select which package(s) are affected
       multiple: true
       options:
-        - \@livekit/components-styles
+        - \@ms-dosx86/components-styles
         - \@livekit/components-core
         - \@livekit/components-react
         - examples

@@ -1,5 +1,5 @@
-import type { UnprefixedClassNames as ComponentNoPrefixClasses } from '@livekit/components-styles/dist/types_unprefixed/index.scss';
-import type { UnprefixedClassNames as PrefabNoPrefixClasses } from '@livekit/components-styles/dist/types_unprefixed/prefabs/index.scss';
+import type { UnprefixedClassNames as ComponentNoPrefixClasses } from '@ms-dosx86/components-styles/dist/types_unprefixed/index.scss';
+import type { UnprefixedClassNames as PrefabNoPrefixClasses } from '@ms-dosx86/components-styles/dist/types_unprefixed/prefabs/index.scss';
 import { cssPrefix } from './../constants';
 
 type UnprefixedClassNames = ComponentNoPrefixClasses | PrefabNoPrefixClasses;

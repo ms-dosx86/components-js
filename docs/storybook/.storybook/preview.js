@@ -1,7 +1,7 @@
 // @ts-check
 /** Imports styles for all stories. Maybe this is not what we want.
  *  You can also import styles on a per story level. */
-import '@livekit/components-styles';
+import '@ms-dosx86/components-styles';
 
 export const parameters = {
   viewMode: 'docs',

@@ -1,4 +1,4 @@
-# @livekit/components-styles
+# @ms-dosx86/components-styles
 
 ## 1.1.5
 

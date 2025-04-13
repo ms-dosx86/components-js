@@ -58,7 +58,7 @@ export function warnAboutMissingStyles(el?: HTMLElement) {
     const target = el ?? document.querySelector('.lk-room-container');
     if (target && !getComputedStyle(target).getPropertyValue('--lk-has-imported-styles')) {
       log.warn(
-        "It looks like you're not using the `@livekit/components-styles package`. To render the UI with the default styling, please import it in your layout or page.",
+        "It looks like you're not using the `@ms-dosx86/components-styles package`. To render the UI with the default styling, please import it in your layout or page.",
       );
     }
   }
