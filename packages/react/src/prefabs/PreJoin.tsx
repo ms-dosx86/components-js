@@ -17,8 +17,8 @@ import {
 import * as React from 'react';
 import { MediaDeviceMenu } from './MediaDeviceMenu';
 import { TrackToggle } from '../components/controls/TrackToggle';
-import type { LocalUserChoices } from '@livekit/components-core';
-import { log } from '@livekit/components-core';
+import type { LocalUserChoices } from '@ms-dosx86/components-core';
+import { log } from '@ms-dosx86/components-core';
 import { ParticipantPlaceholder } from '../assets/images';
 import { useMediaDevices, usePersistentUserChoices } from '../hooks';
 import { useWarnAboutMissingStyles } from '../hooks/useWarnAboutMissingStyles';

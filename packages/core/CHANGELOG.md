@@ -1,4 +1,4 @@
-# @livekit/components-core
+# @ms-dosx86/components-core
 
 ## 0.12.4
 

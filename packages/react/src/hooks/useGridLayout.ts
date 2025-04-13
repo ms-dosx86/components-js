@@ -1,5 +1,5 @@
-import { GRID_LAYOUTS, selectGridLayout } from '@livekit/components-core';
-import type { GridLayoutDefinition, GridLayoutInfo } from '@livekit/components-core';
+import { GRID_LAYOUTS, selectGridLayout } from '@ms-dosx86/components-core';
+import type { GridLayoutDefinition, GridLayoutInfo } from '@ms-dosx86/components-core';
 import * as React from 'react';
 import { useSize } from './internal';
 

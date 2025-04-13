@@ -9,7 +9,7 @@ import {
   type TrackReference,
   isTrackReference,
   type TrackReferenceOrPlaceholder,
-} from '@livekit/components-core';
+} from '@ms-dosx86/components-core';
 
 /**
  * @alpha

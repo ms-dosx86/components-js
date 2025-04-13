@@ -1,5 +1,5 @@
-import type { TrackReferenceOrPlaceholder } from '@livekit/components-core';
-import { setupFocusToggle, isTrackReferencePinned } from '@livekit/components-core';
+import type { TrackReferenceOrPlaceholder } from '@ms-dosx86/components-core';
+import { setupFocusToggle, isTrackReferencePinned } from '@ms-dosx86/components-core';
 import { useEnsureTrackRef, useMaybeLayoutContext } from '../context';
 import { mergeProps } from '../mergeProps';
 import * as React from 'react';

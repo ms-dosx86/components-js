@@ -54,7 +54,7 @@ function isComponentReactPackage(apiItem: ApiItem): boolean {
 }
 
 function isComponentCorePackage(apiItem: ApiItem): boolean {
-  return apiItem.getAssociatedPackage()?.displayName === '@livekit/components-core';
+  return apiItem.getAssociatedPackage()?.displayName === '@ms-dosx86/components-core';
 }
 
 function startsWithCapitalLetter(name: string): boolean {

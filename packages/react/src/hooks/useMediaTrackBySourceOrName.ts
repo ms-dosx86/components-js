@@ -1,10 +1,10 @@
-import type { TrackIdentifier } from '@livekit/components-core';
+import type { TrackIdentifier } from '@ms-dosx86/components-core';
 import {
   getTrackByIdentifier,
   isTrackReference,
   log,
   setupMediaTrack,
-} from '@livekit/components-core';
+} from '@ms-dosx86/components-core';
 import * as React from 'react';
 import { mergeProps } from '../utils';
 

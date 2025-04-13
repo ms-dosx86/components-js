@@ -1,7 +1,7 @@
 import * as React from 'react';
 import SvgChevron from '../../assets/icons/Chevron';
 import type { usePagination } from '../../hooks';
-import { createInteractingObservable } from '@livekit/components-core';
+import { createInteractingObservable } from '@ms-dosx86/components-core';
 
 export interface PaginationControlProps
   extends Pick<

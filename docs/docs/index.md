@@ -8,5 +8,5 @@
 
 | Package                                          | Description |
 | ------------------------------------------------ | ----------- |
-| [@livekit/components-core](./core//index.md)     |             |
+| [@ms-dosx86/components-core](./core//index.md)   |             |
 | [@ms-dosx86/components-react](./react//index.md) |             |

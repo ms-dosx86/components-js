@@ -10,7 +10,7 @@ import {
 import { mergeProps } from '../utils';
 import { StartMediaButton } from '../components/controls/StartMediaButton';
 import { BarVisualizer, DisconnectButton } from '../components';
-import type { TrackReferenceOrPlaceholder } from '@livekit/components-core';
+import type { TrackReferenceOrPlaceholder } from '@ms-dosx86/components-core';
 
 /** @beta */
 export type VoiceAssistantControlBarControls = {

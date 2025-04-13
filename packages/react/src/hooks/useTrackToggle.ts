@@ -1,5 +1,5 @@
-import type { ToggleSource } from '@livekit/components-core';
-import { setupMediaToggle, setupManualToggle, log } from '@livekit/components-core';
+import type { ToggleSource } from '@ms-dosx86/components-core';
+import { setupMediaToggle, setupManualToggle, log } from '@ms-dosx86/components-core';
 import * as React from 'react';
 import type { TrackToggleProps } from '../components';
 import { useMaybeRoomContext } from '../context';

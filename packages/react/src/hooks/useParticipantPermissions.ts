@@ -1,4 +1,4 @@
-import { participantPermissionObserver } from '@livekit/components-core';
+import { participantPermissionObserver } from '@ms-dosx86/components-core';
 import type { ParticipantPermission } from '@livekit/protocol';
 import type { Participant } from '@ms-dosx86/livekit-client';
 import * as React from 'react';

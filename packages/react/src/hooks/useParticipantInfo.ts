@@ -1,4 +1,4 @@
-import { participantInfoObserver } from '@livekit/components-core';
+import { participantInfoObserver } from '@ms-dosx86/components-core';
 import type { Participant } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { useMaybeParticipantContext } from '../context';

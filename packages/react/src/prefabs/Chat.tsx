@@ -1,4 +1,4 @@
-import { type ChatMessage, type ChatOptions } from '@livekit/components-core';
+import { type ChatMessage, type ChatOptions } from '@ms-dosx86/components-core';
 import * as React from 'react';
 import { useMaybeLayoutContext } from '../context';
 import { cloneSingleChild } from '../utils';

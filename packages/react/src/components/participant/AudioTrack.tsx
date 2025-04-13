@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useMediaTrackBySourceOrName } from '../../hooks/useMediaTrackBySourceOrName';
-import type { TrackReference } from '@livekit/components-core';
-import { log } from '@livekit/components-core';
+import type { TrackReference } from '@ms-dosx86/components-core';
+import { log } from '@ms-dosx86/components-core';
 import { RemoteAudioTrack, RemoteTrackPublication } from '@ms-dosx86/livekit-client';
 import { useEnsureTrackRef } from '../../context';
 

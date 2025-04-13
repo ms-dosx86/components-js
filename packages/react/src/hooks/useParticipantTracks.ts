@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { TrackReference } from '@livekit/components-core';
-import { participantTracksObservable } from '@livekit/components-core';
+import type { TrackReference } from '@ms-dosx86/components-core';
+import { participantTracksObservable } from '@ms-dosx86/components-core';
 import { useObservableState } from './internal';
 import type { Track } from '@ms-dosx86/livekit-client';
 import { useMaybeParticipantContext, useRoomContext } from '../context';

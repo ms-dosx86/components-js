@@ -1,4 +1,4 @@
-import { setupDisconnectButton } from '@livekit/components-core';
+import { setupDisconnectButton } from '@ms-dosx86/components-core';
 import { ConnectionState } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import type { DisconnectButtonProps } from '../components';

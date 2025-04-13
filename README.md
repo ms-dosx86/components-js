@@ -95,7 +95,7 @@ pnpm dev:next
 
 <details>
 <summary>
-Why is there a `@livekit/components-core` package?
+Why is there a `@ms-dosx86/components-core` package?
 </summary>
 By abstracting most of the state handling logic into a common core we wanted to make sure that other framework implementations can be created with minimal code duplication. We chose observables as the main data structure for this core as its concepts translate really well to for example React's hooks, solid's signals, Svelte's stores, Vue's composables, and angular loves observables out of the box.
 </details>

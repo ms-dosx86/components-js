@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { mergeProps } from '../../utils';
-import type { TrackReferenceOrPlaceholder } from '@livekit/components-core';
+import type { TrackReferenceOrPlaceholder } from '@ms-dosx86/components-core';
 import { ParticipantTile } from '../participant/ParticipantTile';
-import type { ParticipantClickEvent } from '@livekit/components-core';
+import type { ParticipantClickEvent } from '@ms-dosx86/components-core';
 
 /** @public */
 export interface FocusLayoutContainerProps extends React.HTMLAttributes<HTMLDivElement> {}

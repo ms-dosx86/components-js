@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { setLogLevel } from '@livekit/components-core';
+import { setLogLevel } from '@ms-dosx86/components-core';
 import {
   GridLayout,
   LiveKitRoom,

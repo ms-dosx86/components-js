@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ConnectionState } from '@ms-dosx86/livekit-client';
-import { setupTextStream, type TextStreamData } from '@livekit/components-core';
+import { setupTextStream, type TextStreamData } from '@ms-dosx86/components-core';
 import { useRoomContext } from '../context';
 import { useConnectionState } from './useConnectionStatus';
 import { useObservableState } from './internal';

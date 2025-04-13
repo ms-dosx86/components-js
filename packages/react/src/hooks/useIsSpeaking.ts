@@ -1,4 +1,4 @@
-import { createIsSpeakingObserver } from '@livekit/components-core';
+import { createIsSpeakingObserver } from '@ms-dosx86/components-core';
 import type { Participant } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { useEnsureParticipant } from '../context';

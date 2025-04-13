@@ -1,4 +1,4 @@
-import { computeMenuPosition, wasClickOutside, log } from '@livekit/components-core';
+import { computeMenuPosition, wasClickOutside, log } from '@ms-dosx86/components-core';
 import * as React from 'react';
 import { MediaDeviceSelect } from '../components/controls/MediaDeviceSelect';
 import type { LocalAudioTrack, LocalVideoTrack } from '@ms-dosx86/livekit-client';

@@ -1,4 +1,4 @@
-import { log, setupLiveKitRoom } from '@livekit/components-core';
+import { log, setupLiveKitRoom } from '@ms-dosx86/components-core';
 import type { DisconnectReason } from '@ms-dosx86/livekit-client';
 import { Room, MediaDeviceFailure, RoomEvent } from '@ms-dosx86/livekit-client';
 import * as React from 'react';

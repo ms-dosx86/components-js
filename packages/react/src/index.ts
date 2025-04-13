@@ -11,7 +11,7 @@ export * from './assets/icons';
 export * from './assets/images';
 
 // Re-exports from core
-export { setLogLevel, setLogExtension, isTrackReference } from '@livekit/components-core';
+export { setLogLevel, setLogExtension, isTrackReference } from '@ms-dosx86/components-core';
 export type {
   ChatMessage,
   ReceivedChatMessage,
@@ -26,4 +26,4 @@ export type {
   WidgetState,
   GridLayoutDefinition,
   TextStreamData,
-} from '@livekit/components-core';
+} from '@ms-dosx86/components-core';

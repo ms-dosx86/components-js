@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useObservableState } from './internal';
-import { createMediaDeviceObserver } from '@livekit/components-core';
+import { createMediaDeviceObserver } from '@ms-dosx86/components-core';
 
 /**
  * The `useMediaDevices` hook returns the list of media devices of a given kind.
