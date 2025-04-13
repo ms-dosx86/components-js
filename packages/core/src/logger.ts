@@ -14,7 +14,7 @@ type SetLogLevelOptions = {
 };
 
 /**
- * Set the log level for both the `@livekit/components-react` package and the `@livekit-client` package.
+ * Set the log level for both the `@ms-dosx86/components-react` package and the `@livekit-client` package.
  * To set the `@livekit-client` log independently, use the `liveKitClientLogLevel` prop on the `options` object.
  * @public
  */
@@ -29,7 +29,7 @@ type SetLogExtensionOptions = {
 };
 
 /**
- * Set the log extension for both the `@livekit/components-react` package and the `@livekit-client` package.
+ * Set the log extension for both the `@ms-dosx86/components-react` package and the `@livekit-client` package.
  * To set the `@livekit-client` log extension, use the `liveKitClientLogExtension` prop on the `options` object.
  * @public
  */

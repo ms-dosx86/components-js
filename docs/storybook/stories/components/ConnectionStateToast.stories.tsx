@@ -5,7 +5,7 @@ import {
   //   ConnectionState,
   ConnectionStateToast,
   ConnectionStatusProps,
-} from '@livekit/components-react';
+} from '@ms-dosx86/components-react';
 // import { LkRoomContext } from '../../.storybook/lk-decorators';
 import { Room, ConnectionState as State } from '@ms-dosx86/livekit-client';
 

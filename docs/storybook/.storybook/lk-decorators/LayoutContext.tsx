@@ -4,7 +4,7 @@ import {
   LayoutContextProvider,
   useParticipants,
   useLayoutContext,
-} from '@livekit/components-react';
+} from '@ms-dosx86/components-react';
 import { Track } from '@ms-dosx86/livekit-client';
 
 export type LkFocusContextProps = {

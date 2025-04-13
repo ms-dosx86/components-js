@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { LiveKitRoom } from '@livekit/components-react';
+import { LiveKitRoom } from '@ms-dosx86/components-react';
 import { Decorator } from '@storybook/react';
 import { Room } from '@ms-dosx86/livekit-client';
 

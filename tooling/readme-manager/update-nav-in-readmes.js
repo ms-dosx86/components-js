@@ -31,7 +31,7 @@ function getNavigationBlock(path) {
   const findThis = new RegExp('\\[(.*)\\](?=\\(/?' + path + '\\))', 'g');
   let updatedNavBlock = NAVIGATION_BLOCK.replaceAll(findThis, `[$1 ${YOU_ARE_HERE_ICON}]`);
 
-  // Make links relative to monorepo root so that links work also outside GitHub (e.g. https://www.npmjs.com/package/@livekit/components-react).
+  // Make links relative to monorepo root so that links work also outside GitHub (e.g. https://www.npmjs.com/package/@ms-dosx86/components-react).
   const levelsDeep = path.split('/').length - 1;
   const prefixToMakeRelative = new Array(levelsDeep).fill('..').join('/');
 

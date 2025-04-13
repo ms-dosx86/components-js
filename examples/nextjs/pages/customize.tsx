@@ -13,7 +13,7 @@ import {
   GridLayout,
   useTracks,
   TrackRefContext,
-} from '@livekit/components-react';
+} from '@ms-dosx86/components-react';
 import { ConnectionQuality, Room, Track } from '@ms-dosx86/livekit-client';
 import styles from '../styles/Simple.module.css';
 import myStyles from '../styles/Customize.module.css';

@@ -20,13 +20,13 @@ A LiveKit Components implementation in [React](https://reactjs.org/).
 ## Install
 
 ```bash
-npm install @livekit/components-react
+npm install @ms-dosx86/components-react
 ```
 
 ## Usage
 
 ```tsx
-import { LiveKitRoom } from '@livekit/components-react';
+import { LiveKitRoom } from '@ms-dosx86/components-react';
 
 <LiveKitRoom token="<livekit-token>" serverUrl="<url-to-livekit-server>" connect={true} />;
 ```

@@ -28,13 +28,13 @@ Use this SDK to add realtime video, audio and data features to your React app. B
 First add the library to your project:
 
 ```shell
-npm i @livekit/components-react
+npm i @ms-dosx86/components-react
 ```
 
 Then use any of our pre-fabricated or helper components:
 
 ```tsx
-import { LiveKitRoom, VideoConference } from '@livekit/components-react';
+import { LiveKitRoom, VideoConference } from '@ms-dosx86/components-react';
 
 const TOKEN = 'generated-jwt';
 const WS_URL = 'wss://my-livekit-server';

@@ -22,7 +22,7 @@ export interface VideoTrackProps extends React.VideoHTMLAttributes<HTMLVideoElem
  * ```tsx
  * <VideoTrack trackRef={trackRef} />
  * ```
- * @see {@link @livekit/components-react#ParticipantTile | ParticipantTile}
+ * @see {@link @ms-dosx86/components-react#ParticipantTile | ParticipantTile}
  * @public
  */
 export const VideoTrack: (

@@ -5,7 +5,7 @@ import {
   TrackToggle,
   TrackMutedIndicator,
   TrackMutedIndicatorProps,
-} from '@livekit/components-react';
+} from '@ms-dosx86/components-react';
 import { LkParticipantContext, LkRoomContext } from '../../../.storybook/lk-decorators';
 import { Track } from '@ms-dosx86/livekit-client';
 

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
 
-import { DisconnectButton, DisconnectButtonProps } from '@livekit/components-react';
+import { DisconnectButton, DisconnectButtonProps } from '@ms-dosx86/components-react';
 import { LkRoomContext } from '../../../.storybook/lk-decorators';
 
 const Story: Meta<typeof DisconnectButton> = {

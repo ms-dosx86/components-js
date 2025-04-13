@@ -12,7 +12,7 @@ import {
   useToken,
   useTrackRefContext,
   useTracks,
-} from '@livekit/components-react';
+} from '@ms-dosx86/components-react';
 import styles from '../styles/Clubhouse.module.scss';
 import { Track } from '@ms-dosx86/livekit-client';
 import { useMemo, useState } from 'react';

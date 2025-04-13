@@ -1,4 +1,4 @@
-# @livekit/components-react
+# @ms-dosx86/components-react
 
 ## 2.9.2
 

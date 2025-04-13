@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
 
-import { TrackToggle, TrackToggleProps } from '@livekit/components-react';
+import { TrackToggle, TrackToggleProps } from '@ms-dosx86/components-react';
 import { LkRoomContext } from '../../../.storybook/lk-decorators';
 import { Track } from '@ms-dosx86/livekit-client';
 import { ToggleSource } from '@livekit/components-core';

@@ -14,8 +14,8 @@ body:
       multiple: true
       options:
         - \@ms-dosx86/components-styles
-        - \@livekit/components-core
-        - \@livekit/components-react
+        - \@ms-dosx86/components-core
+        - \@ms-dosx86/components-react
         - examples
     validations:
       required: true

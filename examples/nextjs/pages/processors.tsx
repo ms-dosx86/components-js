@@ -10,9 +10,9 @@ import {
   useLocalParticipant,
   useToken,
   useTracks,
-} from '@livekit/components-react';
+} from '@ms-dosx86/components-react';
 import type { NextPage } from 'next';
-import { ControlBarControls } from '@livekit/components-react';
+import { ControlBarControls } from '@ms-dosx86/components-react';
 import { LocalVideoTrack, Track, TrackProcessor } from '@ms-dosx86/livekit-client';
 import { BackgroundBlur } from '@livekit/track-processors';
 

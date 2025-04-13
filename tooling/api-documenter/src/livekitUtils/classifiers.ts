@@ -50,7 +50,7 @@ function isComponent(apiItem: ApiItem): boolean {
 }
 
 function isComponentReactPackage(apiItem: ApiItem): boolean {
-  return apiItem.getAssociatedPackage()?.displayName === '@livekit/components-react';
+  return apiItem.getAssociatedPackage()?.displayName === '@ms-dosx86/components-react';
 }
 
 function isComponentCorePackage(apiItem: ApiItem): boolean {
