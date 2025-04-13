@@ -1,8 +1,12 @@
 import type { ParticipantPermission } from '@livekit/protocol';
-import { Participant, RemoteParticipant, Room, TrackPublication } from 'livekit-client';
-import { ParticipantEvent, RoomEvent, Track } from 'livekit-client';
-// @ts-ignore some module resolutions (other than 'node') choke on this
-import type { ParticipantEventCallbacks } from 'livekit-client/dist/src/room/participant/Participant';
+import {
+  Participant,
+  RemoteParticipant,
+  Room,
+  TrackPublication,
+  ParticipantEventCallbacks,
+} from '@ms-dosx86/livekit-client';
+import { ParticipantEvent, RoomEvent, Track } from '@ms-dosx86/livekit-client';
 import type { Subscriber } from 'rxjs';
 import { Observable, map, startWith, switchMap } from 'rxjs';
 import { getTrackByIdentifier } from '../components/mediaTrack';

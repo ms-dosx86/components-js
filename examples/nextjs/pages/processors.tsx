@@ -13,7 +13,7 @@ import {
 } from '@livekit/components-react';
 import type { NextPage } from 'next';
 import { ControlBarControls } from '@livekit/components-react';
-import { LocalVideoTrack, Track, TrackProcessor } from 'livekit-client';
+import { LocalVideoTrack, Track, TrackProcessor } from '@ms-dosx86/livekit-client';
 import { BackgroundBlur } from '@livekit/track-processors';
 
 function Stage() {

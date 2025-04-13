@@ -1,7 +1,7 @@
 import { computeMenuPosition, wasClickOutside, log } from '@livekit/components-core';
 import * as React from 'react';
 import { MediaDeviceSelect } from '../components/controls/MediaDeviceSelect';
-import type { LocalAudioTrack, LocalVideoTrack } from 'livekit-client';
+import type { LocalAudioTrack, LocalVideoTrack } from '@ms-dosx86/livekit-client';
 
 /** @public */
 export interface MediaDeviceMenuProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {

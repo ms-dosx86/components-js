@@ -5,8 +5,8 @@ import type {
   ScreenShareCaptureOptions,
   TrackPublishOptions,
   VideoCaptureOptions,
-} from 'livekit-client';
-import { Track } from 'livekit-client';
+} from '@ms-dosx86/livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 import type { Observable } from 'rxjs';
 import { Subject, map, startWith } from 'rxjs';
 import { observeParticipantMedia } from '../observables/participant';

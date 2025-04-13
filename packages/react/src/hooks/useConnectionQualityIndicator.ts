@@ -1,6 +1,6 @@
 import { setupConnectionQualityIndicator } from '@livekit/components-core';
-import type { Participant } from 'livekit-client';
-import { ConnectionQuality } from 'livekit-client';
+import type { Participant } from '@ms-dosx86/livekit-client';
+import { ConnectionQuality } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { useEnsureParticipant } from '../context';
 import { useObservableState } from './internal';

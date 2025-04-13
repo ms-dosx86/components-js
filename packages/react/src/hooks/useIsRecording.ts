@@ -3,7 +3,7 @@ import * as React from 'react';
 import { useEnsureRoom } from '../context';
 import { useObservableState } from './internal';
 import { useConnectionState } from './useConnectionStatus';
-import type { Room } from 'livekit-client';
+import type { Room } from '@ms-dosx86/livekit-client';
 
 /**
  * The `useIsRecording` hook returns a `boolean` that indicates if the room is currently being recorded.

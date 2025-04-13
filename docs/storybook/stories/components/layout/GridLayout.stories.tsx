@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { GridLayout, GridLayoutProps, useTracks } from '@livekit/components-react';
 import { LkRoomContext } from '../../../.storybook/lk-decorators';
-import { Track } from 'livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 import { Meta } from '@storybook/react';
 
 const Story: Meta<typeof GridLayout> = {

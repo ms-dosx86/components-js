@@ -1,4 +1,4 @@
-import type { Participant, TrackPublication } from 'livekit-client';
+import type { Participant, TrackPublication } from '@ms-dosx86/livekit-client';
 
 import type { TrackReference } from './track-reference';
 import { isEqualTrackRef } from './track-reference';

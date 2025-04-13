@@ -5,7 +5,7 @@ module.exports = [
     import: '{ LiveKitRoom }',
     limit: '9 kB',
     ignore: [
-      'livekit-client',
+      '@ms-dosx86/livekit-client',
       'react',
       'react-dom',
       'react/jsx-runtime',
@@ -19,7 +19,7 @@ module.exports = [
     import: '{ LiveKitRoom, VideoConference }',
     limit: '40 kB',
     ignore: [
-      'livekit-client',
+      '@ms-dosx86/livekit-client',
       'react',
       'react-dom',
       'react/jsx-runtime',
@@ -33,7 +33,7 @@ module.exports = [
     import: '*',
     limit: '100 kB',
     ignore: [
-      'livekit-client',
+      '@ms-dosx86/livekit-client',
       'react',
       'react-dom',
       'react/jsx-runtime',

@@ -8,7 +8,7 @@ import { Chat } from './Chat';
 import { TrackLoop } from '../components';
 import { useTracks } from '../hooks';
 import { useWarnAboutMissingStyles } from '../hooks/useWarnAboutMissingStyles';
-import { Track } from 'livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 
 /** @public */
 export interface AudioConferenceProps extends React.HTMLAttributes<HTMLDivElement> {}

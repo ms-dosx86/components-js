@@ -1,4 +1,4 @@
-import type { Room, RoomEvent } from 'livekit-client';
+import type { Room, RoomEvent } from '@ms-dosx86/livekit-client';
 import { useLocalParticipant } from './useLocalParticipant';
 import { useRemoteParticipants } from './useRemoteParticipants';
 import * as React from 'react';

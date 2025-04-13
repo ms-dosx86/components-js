@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { Participant } from 'livekit-client';
-import { Track } from 'livekit-client';
+import type { Participant } from '@ms-dosx86/livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 import type { ParticipantClickEvent, TrackReferenceOrPlaceholder } from '@livekit/components-core';
 import { isTrackReference, isTrackReferencePinned } from '@livekit/components-core';
 import { ConnectionQualityIndicator } from './ConnectionQualityIndicator';

@@ -10,7 +10,7 @@ import {
 } from '@livekit/components-react';
 import type { NextPage } from 'next';
 import { useMemo, useState } from 'react';
-import { MediaDeviceFailure } from 'livekit-client';
+import { MediaDeviceFailure } from '@ms-dosx86/livekit-client';
 import styles from '../styles/VoiceAssistant.module.scss';
 import { generateRandomUserId } from '../lib/helper';
 

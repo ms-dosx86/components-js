@@ -1,6 +1,10 @@
 import * as React from 'react';
-import type { LocalAudioTrack, RemoteAudioTrack, AudioAnalyserOptions } from 'livekit-client';
-import { Track, createAudioAnalyser } from 'livekit-client';
+import type {
+  LocalAudioTrack,
+  RemoteAudioTrack,
+  AudioAnalyserOptions,
+} from '@ms-dosx86/livekit-client';
+import { Track, createAudioAnalyser } from '@ms-dosx86/livekit-client';
 import {
   type TrackReference,
   isTrackReference,

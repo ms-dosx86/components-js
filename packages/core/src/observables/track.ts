@@ -5,8 +5,8 @@ import type {
   Room,
   Track,
   TrackPublication,
-} from 'livekit-client';
-import { RoomEvent, TrackEvent } from 'livekit-client';
+} from '@ms-dosx86/livekit-client';
+import { RoomEvent, TrackEvent } from '@ms-dosx86/livekit-client';
 import { map, Observable, startWith } from 'rxjs';
 import { allParticipantRoomEvents, participantTrackEvents } from '../helper';
 import { log } from '../logger';
@@ -14,8 +14,7 @@ import type { TrackReference } from '../track-reference';
 import { observeRoomEvents } from './room';
 import type { ParticipantTrackIdentifier } from '../types';
 import { observeParticipantEvents } from './participant';
-// @ts-ignore some module resolutions (other than 'node') choke on this
-import type { PublicationEventCallbacks } from 'livekit-client/dist/src/room/track/TrackPublication';
+import type { PublicationEventCallbacks } from '@ms-dosx86/livekit-client';
 
 export function trackObservable(track: TrackPublication) {
   const trackObserver = observeTrackEvents(

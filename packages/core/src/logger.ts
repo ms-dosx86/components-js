@@ -2,7 +2,7 @@ import {
   setLogLevel as setClientSdkLogLevel,
   setLogExtension as setClientSdkLogExtension,
   LogLevel as LogLevelEnum,
-} from 'livekit-client';
+} from '@ms-dosx86/livekit-client';
 import loglevel from 'loglevel';
 
 export const log = loglevel.getLogger('lk-components-js');

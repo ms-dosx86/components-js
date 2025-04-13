@@ -1,4 +1,4 @@
-import { RemoteTrackPublication } from 'livekit-client';
+import { RemoteTrackPublication } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { useMediaTrackBySourceOrName } from '../../hooks/useMediaTrackBySourceOrName';
 import type { ParticipantClickEvent, TrackReference } from '@livekit/components-core';

@@ -1,4 +1,4 @@
-import { Participant, Track } from 'livekit-client';
+import { Participant, Track } from '@ms-dosx86/livekit-client';
 import { describe, test, expect } from 'vitest';
 import { requiredPlaceholders } from './useTracks';
 

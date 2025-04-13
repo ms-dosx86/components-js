@@ -12,7 +12,7 @@ import {
   useToken,
   useTracks,
 } from '@livekit/components-react';
-import { Track } from 'livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 import type { NextPage } from 'next';
 import { useMemo, useState } from 'react';
 import styles from '../styles/Simple.module.css';

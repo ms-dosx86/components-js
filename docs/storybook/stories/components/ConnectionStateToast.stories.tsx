@@ -7,7 +7,7 @@ import {
   ConnectionStatusProps,
 } from '@livekit/components-react';
 // import { LkRoomContext } from '../../.storybook/lk-decorators';
-import { Room, ConnectionState as State } from 'livekit-client';
+import { Room, ConnectionState as State } from '@ms-dosx86/livekit-client';
 
 const Story: Meta<typeof ConnectionStateToast> = {
   component: ConnectionStateToast,

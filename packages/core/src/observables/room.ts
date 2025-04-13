@@ -1,9 +1,8 @@
-import type { Participant, TrackPublication } from 'livekit-client';
-import { LocalParticipant, Room, RoomEvent, Track } from 'livekit-client';
+import type { Participant, TrackPublication, RoomEventCallbacks } from '@ms-dosx86/livekit-client';
+import { LocalParticipant, Room, RoomEvent, Track } from '@ms-dosx86/livekit-client';
 import type { Subscriber, Subscription } from 'rxjs';
 import { concat, filter, finalize, map, Observable, startWith, Subject } from 'rxjs';
-// @ts-ignore some module resolutions (other than 'node') choke on this
-import type { RoomEventCallbacks } from 'livekit-client/dist/src/room/Room';
+
 import { log } from '../logger';
 export function observeRoomEvents(room: Room, ...events: RoomEvent[]): Observable<Room> {
   const observable = new Observable<Room>((subscribe) => {

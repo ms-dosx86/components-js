@@ -14,7 +14,7 @@ import {
   useTracks,
   TrackRefContext,
 } from '@livekit/components-react';
-import { ConnectionQuality, Room, Track } from 'livekit-client';
+import { ConnectionQuality, Room, Track } from '@ms-dosx86/livekit-client';
 import styles from '../styles/Simple.module.css';
 import myStyles from '../styles/Customize.module.css';
 import type { NextPage } from 'next';

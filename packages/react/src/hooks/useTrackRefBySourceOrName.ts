@@ -1,7 +1,7 @@
 import type { TrackReferenceOrPlaceholder, TrackSource } from '@livekit/components-core';
 import { setupMediaTrack, getTrackByIdentifier } from '@livekit/components-core';
 import * as React from 'react';
-import { Track } from 'livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 
 /**
  * @internal

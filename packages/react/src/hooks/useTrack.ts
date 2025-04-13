@@ -1,4 +1,4 @@
-// import type { Participant, Track } from 'livekit-client';
+// import type { Participant, Track } from '@ms-dosx86/livekit-client';
 // import { useTrackRefBySourceOrName } from './useTrackRefBySourceOrName';
 // import { useEnsureParticipant } from '../context';
 

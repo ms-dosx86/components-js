@@ -1,4 +1,4 @@
-import type { TranscriptionSegment } from 'livekit-client';
+import type { TranscriptionSegment } from '@ms-dosx86/livekit-client';
 
 export type ReceivedTranscriptionSegment = TranscriptionSegment & {
   receivedAtMediaTimestamp: number;

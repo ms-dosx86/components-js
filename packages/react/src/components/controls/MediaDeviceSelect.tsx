@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useMaybeRoomContext } from '../../context';
 import { mergeProps } from '../../utils';
-import { RoomEvent, type LocalAudioTrack, type LocalVideoTrack } from 'livekit-client';
+import { RoomEvent, type LocalAudioTrack, type LocalVideoTrack } from '@ms-dosx86/livekit-client';
 import { useMediaDeviceSelect } from '../../hooks';
 
 /** @public */

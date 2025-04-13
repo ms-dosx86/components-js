@@ -14,7 +14,7 @@ import {
   useTracks,
 } from '@livekit/components-react';
 import styles from '../styles/Clubhouse.module.scss';
-import { Track } from 'livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 import { useMemo, useState } from 'react';
 import { generateRandomUserId } from '../lib/helper';
 

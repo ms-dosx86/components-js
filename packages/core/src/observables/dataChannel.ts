@@ -5,7 +5,7 @@ import {
   type Participant,
   type Room,
   type SendTextOptions,
-} from 'livekit-client';
+} from '@ms-dosx86/livekit-client';
 import type { Subscriber } from 'rxjs';
 import { Observable, filter, map } from 'rxjs';
 import { createChatObserver, createDataObserver } from './room';

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { LiveKitRoom } from '@livekit/components-react';
 import { Decorator } from '@storybook/react';
-import { Room } from 'livekit-client';
+import { Room } from '@ms-dosx86/livekit-client';
 
 export type RoomContextSettings = Partial<{
   audio: boolean;

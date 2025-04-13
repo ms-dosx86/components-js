@@ -46,9 +46,12 @@ export function cloneSingleChild(
 export function warnAboutMissingStyles(el?: HTMLElement) {
   if (
     typeof window !== 'undefined' &&
+    // @ts-ignore
     typeof process !== 'undefined' &&
+    // @ts-ignore
     // eslint-disable-next-line turbo/no-undeclared-env-vars
     (process?.env?.NODE_ENV === 'dev' ||
+      // @ts-ignore
       // eslint-disable-next-line turbo/no-undeclared-env-vars
       process?.env?.NODE_ENV === 'development')
   ) {

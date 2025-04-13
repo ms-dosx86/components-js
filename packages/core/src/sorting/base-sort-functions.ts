@@ -1,5 +1,5 @@
-import type { Participant } from 'livekit-client';
-import { Track } from 'livekit-client';
+import type { Participant } from '@ms-dosx86/livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 import type { TrackReferenceOrPlaceholder } from '../track-reference';
 import { getTrackReferenceSource, isTrackReference } from '../track-reference';
 

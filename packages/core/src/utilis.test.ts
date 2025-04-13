@@ -1,4 +1,4 @@
-import { Participant, RemoteTrackPublication, Track } from 'livekit-client';
+import { Participant, RemoteTrackPublication, Track } from '@ms-dosx86/livekit-client';
 import { describe, it, expect } from 'vitest';
 import { isTrackReferencePinned } from './track-reference';
 import type { PinState } from './types';

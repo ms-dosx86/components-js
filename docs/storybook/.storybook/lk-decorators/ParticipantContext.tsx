@@ -6,7 +6,7 @@ import {
   useTracks,
 } from '@livekit/components-react';
 import { Decorator } from '@storybook/react';
-import { Track } from 'livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 
 /**
  * Wraps a Storybook Story into a LiveKit participant context.

@@ -1,5 +1,5 @@
-import { RoomEvent, type Room } from 'livekit-client';
-import type { TextStreamInfo } from 'livekit-client/dist/src/room/types';
+import { RoomEvent, type Room } from '@ms-dosx86/livekit-client';
+import type { TextStreamInfo } from '@ms-dosx86/livekit-client';
 import { from, scan, Subject, type Observable } from 'rxjs';
 import { share } from 'rxjs/operators';
 

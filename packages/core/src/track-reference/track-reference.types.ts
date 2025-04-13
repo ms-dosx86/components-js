@@ -3,7 +3,7 @@
  *
  */
 
-import type { Participant, Track, TrackPublication } from 'livekit-client';
+import type { Participant, Track, TrackPublication } from '@ms-dosx86/livekit-client';
 // ## TrackReference Types
 
 /** @public */

@@ -5,8 +5,8 @@ import type {
   RoomOptions,
   ScreenShareCaptureOptions,
   VideoCaptureOptions,
-} from 'livekit-client';
-import type { MediaDeviceFailure, Room } from 'livekit-client';
+} from '@ms-dosx86/livekit-client';
+import type { MediaDeviceFailure, Room } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { type FeatureFlags, LKFeatureContext, RoomContext } from '../context';
 import { useLiveKitRoom } from '../hooks';

@@ -1,5 +1,5 @@
 import { connectedParticipantsObserver } from '@livekit/components-core';
-import type { RoomEvent, RemoteParticipant, Room } from 'livekit-client';
+import type { RoomEvent, RemoteParticipant, Room } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { useEnsureRoom } from '../context';
 

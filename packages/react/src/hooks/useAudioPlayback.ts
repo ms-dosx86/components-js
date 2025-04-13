@@ -1,4 +1,4 @@
-import type { Room } from 'livekit-client';
+import type { Room } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { useObservableState } from './internal';
 import { roomAudioPlaybackAllowedObservable } from '@livekit/components-core';

@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     '@ms-dosx86/livekit-client':
-      specifier: ^2.11.1
-      version: 2.11.3
+      specifier: ^2.11.7
+      version: 2.11.7
 
 importers:
 
@@ -64,7 +64,7 @@ importers:
         version: link:../../packages/styles
       '@ms-dosx86/livekit-client':
         specifier: 'catalog:'
-        version: 2.11.3
+        version: 2.11.7
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -131,7 +131,7 @@ importers:
         version: link:../../packages/styles
       '@ms-dosx86/livekit-client':
         specifier: 'catalog:'
-        version: 2.11.3
+        version: 2.11.7
       livekit-server-sdk:
         specifier: ^2.6.1
         version: 2.12.0
@@ -171,7 +171,7 @@ importers:
         version: 1.6.13
       '@ms-dosx86/livekit-client':
         specifier: 'catalog:'
-        version: 2.11.3
+        version: 2.11.7
       loglevel:
         specifier: 1.9.1
         version: 1.9.1
@@ -223,7 +223,7 @@ importers:
         version: link:../core
       '@ms-dosx86/livekit-client':
         specifier: 'catalog:'
-        version: 2.11.3
+        version: 2.11.7
       clsx:
         specifier: 2.1.1
         version: 2.1.1
@@ -1866,8 +1866,8 @@ packages:
   '@module-federation/webpack-bundler-runtime@0.11.2':
     resolution: {integrity: sha512-WdwIE6QF+MKs/PdVu0cKPETF743JB9PZ62/qf7Uo3gU4fjsUMc37RnbJZ/qB60EaHHfjwp1v6NnhZw1r4eVsnw==}
 
-  '@ms-dosx86/livekit-client@2.11.3':
-    resolution: {integrity: sha512-y3EA6SR4zV/OBc/mlCkC7p2x8s8ZFABn8CWFZJ+I99+QK8JLNWT5yvM6mqC0nSK8cRI04LDvcWgCkC66m9/yUQ==}
+  '@ms-dosx86/livekit-client@2.11.7':
+    resolution: {integrity: sha512-Bsi5pADDQg/NUhxkb+HFX+p4PfPky6joiWFXdxZ60Jk+jI4tvRaWrgf2J0cE21S4zfYfr0/rq9nP9u89h5zZkg==}
 
   '@napi-rs/wasm-runtime@0.2.8':
     resolution: {integrity: sha512-OBlgKdX7gin7OIq4fadsjpg+cp2ZphvAIKucHsNfTdJiqdOmOEwQd/bHi0VwNrcw5xpBJyUw6cK/QilCqy1BSg==}
@@ -9809,7 +9809,7 @@ snapshots:
       '@module-federation/runtime': 0.11.2
       '@module-federation/sdk': 0.11.2
 
-  '@ms-dosx86/livekit-client@2.11.3':
+  '@ms-dosx86/livekit-client@2.11.7':
     dependencies:
       '@livekit/mutex': 1.1.1
       '@livekit/protocol': 1.36.1

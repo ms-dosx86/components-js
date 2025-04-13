@@ -1,4 +1,4 @@
-import type { Room } from 'livekit-client';
+import type { Room } from '@ms-dosx86/livekit-client';
 import { prefixClass } from '../styles-interface';
 
 export function setupDisconnectButton(room: Room) {

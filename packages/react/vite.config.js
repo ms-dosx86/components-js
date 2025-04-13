@@ -30,7 +30,7 @@ export default defineConfig({
     },
     rollupOptions: {
       external: [
-        'livekit-client',
+        '@ms-dosx86/livekit-client',
         '@livekit/krisp-noise-filter',
         'react',
         'react-dom',

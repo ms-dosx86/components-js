@@ -6,7 +6,7 @@ import {
   ConnectionQualityIndicatorProps,
 } from '@livekit/components-react';
 import { MockParticipantContext } from '../../../.storybook/lk-decorators';
-import { ConnectionQuality } from 'livekit-client';
+import { ConnectionQuality } from '@ms-dosx86/livekit-client';
 
 const Story: Meta<typeof ConnectionQualityIndicator> = {
   /*

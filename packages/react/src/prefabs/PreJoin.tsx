@@ -4,7 +4,7 @@ import type {
   LocalTrack,
   LocalVideoTrack,
   TrackProcessor,
-} from 'livekit-client';
+} from '@ms-dosx86/livekit-client';
 import {
   createLocalAudioTrack,
   createLocalTracks,
@@ -13,7 +13,7 @@ import {
   Track,
   VideoPresets,
   Mutex,
-} from 'livekit-client';
+} from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { MediaDeviceMenu } from './MediaDeviceMenu';
 import { TrackToggle } from '../components/controls/TrackToggle';

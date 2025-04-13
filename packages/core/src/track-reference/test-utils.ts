@@ -4,7 +4,12 @@
  * @internal
  */
 
-import { Participant, RemoteTrackPublication, Track, TrackPublication } from 'livekit-client';
+import {
+  Participant,
+  RemoteTrackPublication,
+  Track,
+  TrackPublication,
+} from '@ms-dosx86/livekit-client';
 import type { UpdatableItem } from '../sorting/tile-array-update';
 import type { TrackReference, TrackReferencePlaceholder } from './track-reference.types';
 import { getTrackReferenceId } from './track-reference.utils';

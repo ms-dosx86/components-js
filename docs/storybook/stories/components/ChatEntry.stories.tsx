@@ -3,7 +3,7 @@ import { Meta, StoryObj } from '@storybook/react';
 
 import { ChatEntry, ChatEntryProps, formatChatMessageLinks } from '@livekit/components-react';
 import { LkRoomContext } from '../../.storybook/lk-decorators';
-import { Participant } from 'livekit-client';
+import { Participant } from '@ms-dosx86/livekit-client';
 
 const participant = new Participant('dummy-sid', 'dummy-identity', 'dummy-name', 'dummy-metadata');
 

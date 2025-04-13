@@ -4,7 +4,7 @@ import {
   type LocalVideoTrack,
   type Room,
   type LocalTrack,
-} from 'livekit-client';
+} from '@ms-dosx86/livekit-client';
 import { BehaviorSubject } from 'rxjs';
 import { log } from '../logger';
 import { prefixClass } from '../styles-interface';

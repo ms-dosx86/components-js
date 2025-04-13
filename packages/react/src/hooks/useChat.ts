@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { ChatOptions, ReceivedChatMessage } from '@livekit/components-core';
 import { setupChat } from '@livekit/components-core';
-import { ConnectionState } from 'livekit-client';
+import { ConnectionState } from '@ms-dosx86/livekit-client';
 import { useRoomContext } from '../context';
 import { useObservableState } from './internal/useObservableState';
 import { useConnectionState } from './useConnectionStatus';

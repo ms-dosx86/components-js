@@ -1,5 +1,5 @@
 import { setupStartVideo } from '@livekit/components-core';
-import type { Room } from 'livekit-client';
+import type { Room } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { useEnsureRoom } from '../context';
 import { mergeProps } from '../mergeProps';

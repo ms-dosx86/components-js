@@ -5,7 +5,7 @@ import {
   useParticipants,
   useLayoutContext,
 } from '@livekit/components-react';
-import { Track } from 'livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 
 export type LkFocusContextProps = {
   hasFocus: boolean;

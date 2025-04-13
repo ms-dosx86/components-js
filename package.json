@@ -26,8 +26,8 @@
     "api:check": "turbo run api-check",
     "api-extractor": "turbo run api-extractor",
     "cleanup": "find . -type d \\( -name 'node_modules' -o -name '.turbo' -o -name 'dist' \\) -prune -exec rm -rf '{}' +",
-    "link-local-client": "npm pkg set \"pnpm.overrides.livekit-client\"=\"file:../client-sdk-js\" && pnpm install",
-    "unlink-local-client": "npm pkg delete \"pnpm.overrides.livekit-client\" && pnpm install"
+    "link-local-client": "npm pkg set \"pnpm.overrides.@ms-dosx86/livekit-client\"=\"file:../client-sdk-js\" && pnpm install",
+    "unlink-local-client": "npm pkg delete \"pnpm.overrides.@ms-dosx86/livekit-client\" && pnpm install"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",

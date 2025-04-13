@@ -3,7 +3,7 @@
 import { LiveKitRoom, useToken, VideoConference, setLogLevel } from '@livekit/components-react';
 import type { NextPage } from 'next';
 import * as React from 'react';
-import { Room, ExternalE2EEKeyProvider } from 'livekit-client';
+import { Room, ExternalE2EEKeyProvider } from '@ms-dosx86/livekit-client';
 import { generateRandomUserId } from '../lib/helper';
 
 const E2EEExample: NextPage = () => {
@@ -30,7 +30,9 @@ const E2EEExample: NextPage = () => {
           typeof window !== 'undefined'
             ? {
                 keyProvider,
-                worker: new Worker(new URL('livekit-client/e2ee-worker', import.meta.url)),
+                worker: new Worker(
+                  new URL('@ms-dosx86/livekit-client/e2ee-worker', import.meta.url),
+                ),
               }
             : undefined,
       }),

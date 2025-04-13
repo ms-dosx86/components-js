@@ -1,4 +1,4 @@
-import { Track } from 'livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { MediaDeviceMenu } from './MediaDeviceMenu';
 import { DisconnectButton } from '../components/controls/DisconnectButton';

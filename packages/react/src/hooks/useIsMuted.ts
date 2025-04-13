@@ -3,7 +3,7 @@ import {
   getTrackReferenceId,
   mutedObserver,
 } from '@livekit/components-core';
-import type { Participant, Track } from 'livekit-client';
+import type { Participant, Track } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { useEnsureParticipant } from '../context';
 

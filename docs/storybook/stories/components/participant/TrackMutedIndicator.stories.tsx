@@ -7,7 +7,7 @@ import {
   TrackMutedIndicatorProps,
 } from '@livekit/components-react';
 import { LkParticipantContext, LkRoomContext } from '../../../.storybook/lk-decorators';
-import { Track } from 'livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 
 const Story: Meta<typeof TrackMutedIndicator> = {
   component: TrackMutedIndicator,

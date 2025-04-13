@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
-import type { Participant, Room, ChatMessage, SendTextOptions } from 'livekit-client';
-import { compareVersions, RoomEvent } from 'livekit-client';
+import type { Participant, Room, ChatMessage, SendTextOptions } from '@ms-dosx86/livekit-client';
+import { compareVersions, RoomEvent } from '@ms-dosx86/livekit-client';
 import { BehaviorSubject, Subject, scan, map, takeUntil, from, filter } from 'rxjs';
 import {
   DataTopic,

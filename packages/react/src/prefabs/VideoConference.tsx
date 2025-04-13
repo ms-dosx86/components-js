@@ -5,7 +5,7 @@ import type {
   WidgetState,
 } from '@livekit/components-core';
 import { isEqualTrackRef, isTrackReference, isWeb, log } from '@livekit/components-core';
-import { RoomEvent, Track } from 'livekit-client';
+import { RoomEvent, Track } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import type { MessageFormatter } from '../components';
 import {

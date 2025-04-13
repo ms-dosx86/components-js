@@ -6,7 +6,7 @@ import { mergeProps } from '../mergeProps';
 import { useFacingMode } from './useFacingMode';
 import { useIsMuted } from './useIsMuted';
 import { useIsSpeaking } from './useIsSpeaking';
-import { Track } from 'livekit-client';
+import { Track } from '@ms-dosx86/livekit-client';
 
 /** @public */
 export interface UseParticipantTileProps<T extends HTMLElement> extends React.HTMLAttributes<T> {

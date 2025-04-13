@@ -3,7 +3,7 @@ import {
   connectedParticipantObserver,
   participantByIdentifierObserver,
 } from '@livekit/components-core';
-import type { ParticipantEvent, RemoteParticipant } from 'livekit-client';
+import type { ParticipantEvent, RemoteParticipant } from '@ms-dosx86/livekit-client';
 import * as React from 'react';
 import { useRoomContext } from '../context';
 
