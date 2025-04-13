@@ -1,8 +1,5 @@
 packages:
   - 'packages/*'
-  - 'examples/*'
-  - 'docs/*'
-  - 'tooling/*'
 
 catalog:
   '@ms-dosx86/livekit-client': '^2.11.7'

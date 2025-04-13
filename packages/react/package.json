@@ -1,4 +1,5 @@
 {
+  "private": false,
   "name": "@ms-dosx86/components-react",
   "version": "2.9.2",
   "license": "Apache-2.0",
