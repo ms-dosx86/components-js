@@ -8,7 +8,7 @@ catalogs:
   default:
     '@ms-dosx86/livekit-client':
       specifier: ^2.11.1
-      version: 2.11.2
+      version: 2.11.3
 
 importers:
 
@@ -64,7 +64,7 @@ importers:
         version: link:../../packages/styles
       '@ms-dosx86/livekit-client':
         specifier: 'catalog:'
-        version: 2.11.2
+        version: 2.11.3
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -131,7 +131,7 @@ importers:
         version: link:../../packages/styles
       '@ms-dosx86/livekit-client':
         specifier: 'catalog:'
-        version: 2.11.2
+        version: 2.11.3
       livekit-server-sdk:
         specifier: ^2.6.1
         version: 2.12.0
@@ -171,7 +171,7 @@ importers:
         version: 1.6.13
       '@ms-dosx86/livekit-client':
         specifier: 'catalog:'
-        version: 2.11.2
+        version: 2.11.3
       loglevel:
         specifier: 1.9.1
         version: 1.9.1
@@ -223,7 +223,7 @@ importers:
         version: link:../core
       '@ms-dosx86/livekit-client':
         specifier: 'catalog:'
-        version: 2.11.2
+        version: 2.11.3
       clsx:
         specifier: 2.1.1
         version: 2.1.1
@@ -1866,8 +1866,8 @@ packages:
   '@module-federation/webpack-bundler-runtime@0.11.2':
     resolution: {integrity: sha512-WdwIE6QF+MKs/PdVu0cKPETF743JB9PZ62/qf7Uo3gU4fjsUMc37RnbJZ/qB60EaHHfjwp1v6NnhZw1r4eVsnw==}
 
-  '@ms-dosx86/livekit-client@2.11.2':
-    resolution: {integrity: sha512-N1IkS+z9z2Dqw6ExUHonHujRjGs/N/WVex3qYwYlMRO4oYxKmz+/BfU5fiZdhd8oK2c4hpL6Y8ZKwwWft2fHhQ==, tarball: https://npm.pkg.github.com/download/@ms-dosx86/livekit-client/2.11.2/2469cb158007ba01552616075aad2f9147a410aa}
+  '@ms-dosx86/livekit-client@2.11.3':
+    resolution: {integrity: sha512-y3EA6SR4zV/OBc/mlCkC7p2x8s8ZFABn8CWFZJ+I99+QK8JLNWT5yvM6mqC0nSK8cRI04LDvcWgCkC66m9/yUQ==}
 
   '@napi-rs/wasm-runtime@0.2.8':
     resolution: {integrity: sha512-OBlgKdX7gin7OIq4fadsjpg+cp2ZphvAIKucHsNfTdJiqdOmOEwQd/bHi0VwNrcw5xpBJyUw6cK/QilCqy1BSg==}
@@ -9809,7 +9809,7 @@ snapshots:
       '@module-federation/runtime': 0.11.2
       '@module-federation/sdk': 0.11.2
 
-  '@ms-dosx86/livekit-client@2.11.2':
+  '@ms-dosx86/livekit-client@2.11.3':
     dependencies:
       '@livekit/mutex': 1.1.1
       '@livekit/protocol': 1.36.1
@@ -13567,6 +13567,17 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.4.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1):
+    dependencies:
+      debug: 3.2.7
+    optionalDependencies:
+      '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@5.4.2)
+      eslint: 8.57.1
+      eslint-import-resolver-node: 0.3.9
+      eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.31.0)(eslint@8.57.1)
+    transitivePeerDependencies:
+      - supports-color
+
   eslint-module-utils@2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.0)(eslint@8.57.1):
     dependencies:
       debug: 3.2.7
@@ -13575,16 +13586,6 @@ snapshots:
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.0(eslint-plugin-import@2.31.0)(eslint@8.57.1)
-    transitivePeerDependencies:
-      - supports-color
-
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.29.1(eslint@8.57.1)(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint@8.57.1):
-    dependencies:
-      debug: 3.2.7
-    optionalDependencies:
-      '@typescript-eslint/parser': 8.29.1(eslint@8.57.1)(typescript@5.8.2)
-      eslint: 8.57.1
-      eslint-import-resolver-node: 0.3.9
     transitivePeerDependencies:
       - supports-color
 
@@ -13664,7 +13665,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.29.1(eslint@8.57.1)(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.4.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
