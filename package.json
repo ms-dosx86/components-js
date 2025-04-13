@@ -18,7 +18,6 @@
     "gen:docs": "turbo run gen:docs",
     "gen:docs:watch": "nodemon --watch \"tooling/api-documenter/src/**/*\" --watch \"packages/react/src/**/*\" --ignore \"packages/react/src/assets/**/*\" -e js,jsx,ts,tsx -x \"pnpm gen:docs\"",
     "lint": "turbo run lint",
-    "preinstall": "npx only-allow pnpm",
     "ci:publish": "turbo run build --filter=./packages/* && changeset publish",
     "ci:publish2": "turbo run build --filter=./packages/*",
     "start:next": "turbo run start --filter=@ms-dosx86/component-example-next...",
