@@ -11,5 +11,13 @@
   "linked": [],
   "access": "restricted",
   "baseBranch": "main",
-  "updateInternalDependencies": "patch"
+  "updateInternalDependencies": "patch",
+  "ignore": [
+    "@ms-dosx86/components-js-docs",
+    "@ms-dosx86/component-docs-storybook",
+    "@livekit/component-example-next",
+    "@ms-dosx86/api-documenter",
+    "@ms-dosx86/components-docs-gen",
+    "eslint-config-lk-custom"
+  ]
 }
