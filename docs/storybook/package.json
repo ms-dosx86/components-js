@@ -11,9 +11,9 @@
     "tsx:check": "tsc --noEmit"
   },
   "dependencies": {
-    "@livekit/components-react": "workspace:*",
-    "@livekit/components-styles": "workspace:*",
-    "livekit-client": "catalog:",
+    "@ms-dosx86/components-react": "workspace:*",
+    "@ms-dosx86/components-styles": "workspace:*",
+    "@ms-dosx86/livekit-client": "catalog:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
