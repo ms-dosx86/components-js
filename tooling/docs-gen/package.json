@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "name": "@ms-dosx86/components-docs-gen",
   "version": "0.0.77",
   "description": "Generate component docs.",
