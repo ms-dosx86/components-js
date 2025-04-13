@@ -1,10 +1,10 @@
 {
-  "name": "@livekit/api-documenter",
+  "name": "@ms-dosx86/api-documenter",
   "version": "7.22.22",
   "description": "Read JSON files from api-extractor, generate documentation pages",
   "repository": {
     "type": "git",
-    "url": "https://github.com/livekit/components-js.git",
+    "url": "https://github.com/ms-dosx86/components-js.git",
     "directory": "tooling/api-documenter"
   },
   "license": "MIT",

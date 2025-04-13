@@ -1,11 +1,11 @@
 {
-  "name": "@livekit/components-react",
+  "name": "@ms-dosx86/components-react",
   "version": "2.9.2",
   "license": "Apache-2.0",
-  "author": "LiveKit",
+  "author": "ms-dosx86",
   "repository": {
     "type": "git",
-    "url": "https://github.com/livekit/components-js.git",
+    "url": "https://github.com/ms-dosx86/components-js.git",
     "directory": "/packages/react"
   },
   "exports": {
@@ -52,7 +52,7 @@
   },
   "typings": "dist/index.d.ts",
   "dependencies": {
-    "@livekit/components-core": "workspace:*",
+    "@ms-dosx86/components-core": "workspace:*",
     "clsx": "2.1.1",
     "usehooks-ts": "3.1.1"
   },
@@ -93,6 +93,6 @@
     "node": ">=18"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   }
 }

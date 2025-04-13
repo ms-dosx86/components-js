@@ -1,13 +1,13 @@
 {
   "private": true,
-  "name": "@livekit/components-docs-gen",
+  "name": "@ms-dosx86/components-docs-gen",
   "version": "0.0.77",
   "description": "Generate component docs.",
   "license": "Apache 2.0",
-  "author": "LiveKit",
+  "author": "ms-dosx86",
   "repository": {
     "type": "git",
-    "url": "https://github.com/livekit/components-js.git",
+    "url": "https://github.com/ms-dosx86/components-js.git",
     "directory": "eslint-plugin-tsdoc"
   },
   "scripts": {
@@ -20,8 +20,8 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@livekit/api-documenter": "workspace:*",
-    "@livekit/components-react": "workspace:*",
+    "@ms-dosx86/api-documenter": "workspace:*",
+    "@ms-dosx86/components-react": "workspace:*",
     "eslint-config-lk-custom": "workspace:*"
   },
   "devDependencies": {

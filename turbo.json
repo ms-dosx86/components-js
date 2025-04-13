@@ -24,12 +24,12 @@
       "dependsOn": ["^build"]
     },
     "api-extractor": {
-      "dependsOn": ["@livekit/components-react#build", "@livekit/components-core#build"],
+      "dependsOn": ["@ms-dosx86/components-react#build", "@ms-dosx86/components-core#build"],
       "outputs": ["temp/*", "etc/*"]
     },
     "gen:docs": {
       "cache": false,
-      "dependsOn": ["^api-extractor", "@livekit/api-documenter#build"],
+      "dependsOn": ["^api-extractor", "@ms-dosx86/api-documenter#build"],
       "outputs": ["docs/docs/**"]
     },
     "api-check": {
